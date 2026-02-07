@@ -1,0 +1,891 @@
+Logger       2026-02-08 00:16:07,954 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:16:37,289 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:16:51,198 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:17:01,183 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:37:09,521 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:37:09,536 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\Shufersal
+Logger       2026-02-08 00:37:09,536 INFO     [MainThread] logger.py:info Folder backend/temp_data\Shufersal: Num of Files= 0,Size= 0 MB
+Logger       2026-02-08 00:37:30,305 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:37:30,323 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:37:30,323 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 0,Size= 0 MB
+Logger       2026-02-08 00:37:42,922 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:37:42,925 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:37:48,439 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:37:54,069 INFO     [MainThread] logger.py:info Found 910 files
+Logger       2026-02-08 00:37:54,070 INFO     [MainThread] logger.py:info After filtering bad files: Found 910 files
+Logger       2026-02-08 00:37:54,072 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 910 files
+Logger       2026-02-08 00:37:54,074 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 910
+Logger       2026-02-08 00:37:54,076 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 455
+Logger       2026-02-08 00:37:54,078 INFO     [MainThread] logger.py:info Number of entry after filter store id is 455
+Logger       2026-02-08 00:37:54,079 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 455
+Logger       2026-02-08 00:37:54,080 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 455
+Logger       2026-02-08 00:37:54,081 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:37:54,082 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:37:54,083 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:37:54,100 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:37:54,101 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Price7290873255550-007-202602071510.gz
+Logger       2026-02-08 00:37:54,369 DEBUG    [PullingThread_0] logger.py:debug File size is 762 bytes.
+Logger       2026-02-08 00:37:54,395 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Price7290873255550-007-202602071510.gz
+Logger       2026-02-08 00:37:54,397 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:37:54,419 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:37:54,420 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Price7290873255550-007-202602071510.xml: size 4235
+Logger       2026-02-08 00:37:54,420 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 4235 MB
+Logger       2026-02-08 00:41:15,151 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:41:15,164 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\HaziHinam
+Logger       2026-02-08 00:41:15,164 INFO     [MainThread] logger.py:info Folder backend/temp_data\HaziHinam: Num of Files= 0,Size= 0 MB
+Logger       2026-02-08 00:41:58,499 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:41:58,501 DEBUG    [MainThread] logger.py:debug Request url: [{'method': 'GET', 'url': 'https://laibcatalog.co.il/'}]
+Logger       2026-02-08 00:41:58,502 DEBUG    [MainThread] logger.py:debug Didn't find cookie file
+Logger       2026-02-08 00:41:58,502 DEBUG    [MainThread] logger.py:debug On a new Session requesting url: method=GET, url=https://laibcatalog.co.il/, body=None
+Logger       2026-02-08 00:42:00,500 INFO     [MainThread] logger.py:info Before filtring names found 58 entries
+Logger       2026-02-08 00:42:00,507 INFO     [MainThread] logger.py:info After filtering names found 0 entries
+Logger       2026-02-08 00:42:00,507 INFO     [MainThread] logger.py:info Found 0 entries
+Logger       2026-02-08 00:42:00,507 INFO     [MainThread] logger.py:info Found 0 download urls
+Logger       2026-02-08 00:42:00,508 INFO     [MainThread] logger.py:info After filtering bad files: Found 0 files
+Logger       2026-02-08 00:42:00,508 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 0
+Logger       2026-02-08 00:42:00,508 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 0
+Logger       2026-02-08 00:42:00,509 INFO     [MainThread] logger.py:info Number of entry after filter store id is 0
+Logger       2026-02-08 00:42:00,509 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 0
+Logger       2026-02-08 00:42:00,509 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 0
+Logger       2026-02-08 00:42:00,510 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:42:00,510 INFO     [MainThread] logger.py:info Result length 0
+Logger       2026-02-08 00:42:00,520 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\Victory
+Logger       2026-02-08 00:42:00,521 INFO     [MainThread] logger.py:info Folder backend/temp_data\Victory: Num of Files= 0,Size= 0 MB
+Logger       2026-02-08 00:42:46,432 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:42:46,435 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:42:46,701 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:42:46,701 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:42:46,701 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:42:46,702 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:42:46,702 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:42:46,702 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:42:46,702 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:42:46,702 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:42:46,703 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:42:46,703 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:42:46,703 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:42:46,712 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:42:46,713 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:42:46,991 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:42:46,992 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:42:47,010 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:42:47,011 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:42:47,011 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:44:18,966 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:44:18,968 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:44:19,242 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:44:19,243 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:44:19,244 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:44:19,245 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:44:19,246 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:44:19,246 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:44:19,247 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:44:19,247 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:44:19,248 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:44:19,248 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:44:19,249 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:44:19,267 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:44:19,268 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:44:19,486 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:44:19,487 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:44:19,504 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:44:19,504 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:44:19,505 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:45:01,861 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:45:01,864 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:45:02,142 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:45:02,144 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:45:02,145 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:45:02,147 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:45:02,148 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:45:02,149 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:45:02,150 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:45:02,152 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:45:02,153 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:45:02,154 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:45:02,155 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:45:02,178 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:45:02,179 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:45:02,401 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:45:02,402 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:45:02,426 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:45:02,427 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:45:02,427 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:45:03,234 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:45:03,244 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:45:05,390 INFO     [MainThread] logger.py:info Found 157 files
+Logger       2026-02-08 00:45:05,390 INFO     [MainThread] logger.py:info After filtering bad files: Found 157 files
+Logger       2026-02-08 00:45:05,391 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 157 files
+Logger       2026-02-08 00:45:05,391 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 157
+Logger       2026-02-08 00:45:05,391 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 157
+Logger       2026-02-08 00:45:05,392 INFO     [MainThread] logger.py:info Number of entry after filter store id is 157
+Logger       2026-02-08 00:45:05,392 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:45:05,393 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:45:05,393 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:45:05,393 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:45:05,393 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:45:05,403 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:45:05,404 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:45:05,836 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:45:05,900 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:45:05,901 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:45:05,919 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:45:05,919 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:45:05,920 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:45:05,920 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:45:29,553 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:45:29,555 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:45:29,818 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:45:29,818 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:45:29,819 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:45:29,819 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:45:29,819 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:45:29,820 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:45:29,820 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:45:29,820 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:45:29,821 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:45:29,821 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:45:29,821 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:45:29,830 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:45:29,831 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:45:30,080 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:45:30,080 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:45:30,098 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:45:30,099 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:45:30,099 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:45:30,864 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:45:30,874 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:45:32,944 INFO     [MainThread] logger.py:info Found 157 files
+Logger       2026-02-08 00:45:32,945 INFO     [MainThread] logger.py:info After filtering bad files: Found 157 files
+Logger       2026-02-08 00:45:32,947 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 157 files
+Logger       2026-02-08 00:45:32,949 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 157
+Logger       2026-02-08 00:45:32,950 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 157
+Logger       2026-02-08 00:45:32,951 INFO     [MainThread] logger.py:info Number of entry after filter store id is 157
+Logger       2026-02-08 00:45:32,953 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:45:32,954 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:45:32,954 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:45:32,955 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:45:32,956 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:45:32,971 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:45:32,971 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:45:33,395 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:45:33,470 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:45:33,472 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:45:33,489 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:45:33,489 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:45:33,490 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:45:33,490 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:46:04,141 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:46:04,144 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:46:04,402 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:46:04,402 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:46:04,403 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:46:04,403 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:46:04,404 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:46:04,404 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:46:04,404 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:46:04,404 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:46:04,405 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:46:04,405 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:46:04,405 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:46:04,419 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:46:04,420 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:46:04,695 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:46:04,695 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:46:04,712 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:46:04,713 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:46:04,713 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:46:05,432 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:46:05,444 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:46:07,641 INFO     [MainThread] logger.py:info Found 157 files
+Logger       2026-02-08 00:46:07,642 INFO     [MainThread] logger.py:info After filtering bad files: Found 157 files
+Logger       2026-02-08 00:46:07,643 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 157 files
+Logger       2026-02-08 00:46:07,645 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 157
+Logger       2026-02-08 00:46:07,645 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 157
+Logger       2026-02-08 00:46:07,646 INFO     [MainThread] logger.py:info Number of entry after filter store id is 157
+Logger       2026-02-08 00:46:07,648 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:46:07,649 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:46:07,649 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:46:07,650 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:46:07,650 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:46:07,667 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:46:07,668 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:46:08,050 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:46:08,111 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:46:08,112 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:46:08,130 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:46:08,130 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:46:08,131 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:46:08,131 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:53:11,499 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:53:11,502 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:53:11,761 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:53:11,761 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:53:11,762 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:53:11,762 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:53:11,762 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:53:11,763 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:53:11,763 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:53:11,763 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:53:11,764 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:53:11,764 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:53:11,764 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:53:11,773 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:53:11,774 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:53:12,021 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:53:12,022 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:53:12,039 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:53:12,039 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:53:12,039 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:53:12,777 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:53:12,787 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:53:14,823 INFO     [MainThread] logger.py:info Found 158 files
+Logger       2026-02-08 00:53:14,824 INFO     [MainThread] logger.py:info After filtering bad files: Found 158 files
+Logger       2026-02-08 00:53:14,824 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 158 files
+Logger       2026-02-08 00:53:14,824 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 158
+Logger       2026-02-08 00:53:14,825 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 158
+Logger       2026-02-08 00:53:14,825 INFO     [MainThread] logger.py:info Number of entry after filter store id is 158
+Logger       2026-02-08 00:53:14,826 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:53:14,826 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:53:14,826 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:53:14,826 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:53:14,826 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:53:14,836 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:53:14,837 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:53:15,254 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:53:15,313 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:53:15,314 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:53:15,332 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:53:15,332 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:53:15,333 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:53:15,333 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:55:13,234 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:55:13,236 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:55:13,515 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:55:13,516 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:55:13,516 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:55:13,517 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:55:13,517 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:55:13,518 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:55:13,518 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:55:13,519 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:55:13,519 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:55:13,519 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:55:13,519 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:55:13,528 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:55:13,529 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:55:13,761 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:55:13,763 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:55:13,793 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:55:13,794 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:55:13,794 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:55:14,563 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:55:14,588 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:55:16,672 INFO     [MainThread] logger.py:info Found 158 files
+Logger       2026-02-08 00:55:16,673 INFO     [MainThread] logger.py:info After filtering bad files: Found 158 files
+Logger       2026-02-08 00:55:16,673 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 158 files
+Logger       2026-02-08 00:55:16,673 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 158
+Logger       2026-02-08 00:55:16,674 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 158
+Logger       2026-02-08 00:55:16,674 INFO     [MainThread] logger.py:info Number of entry after filter store id is 158
+Logger       2026-02-08 00:55:16,675 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:55:16,675 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:55:16,675 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:55:16,675 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:55:16,676 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:55:16,685 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:55:16,686 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:55:17,161 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:55:17,213 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:55:17,214 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:55:17,232 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:55:17,233 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:55:17,233 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:55:17,234 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:56:09,637 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:56:09,640 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:56:09,924 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:56:09,925 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:56:09,927 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:56:09,929 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:56:09,930 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:56:09,931 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:56:09,933 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:56:09,934 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:56:09,935 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:56:09,936 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:56:09,937 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:56:09,961 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:56:09,962 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:56:10,196 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:56:10,197 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:56:10,219 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:56:10,219 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:56:10,220 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:56:10,980 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:56:10,993 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:56:13,123 INFO     [MainThread] logger.py:info Found 158 files
+Logger       2026-02-08 00:56:13,123 INFO     [MainThread] logger.py:info After filtering bad files: Found 158 files
+Logger       2026-02-08 00:56:13,124 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 158 files
+Logger       2026-02-08 00:56:13,124 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 158
+Logger       2026-02-08 00:56:13,125 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 158
+Logger       2026-02-08 00:56:13,125 INFO     [MainThread] logger.py:info Number of entry after filter store id is 158
+Logger       2026-02-08 00:56:13,126 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:56:13,127 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:56:13,127 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:56:13,128 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:56:13,128 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:56:13,138 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:56:13,138 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:56:13,580 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:56:13,628 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:56:13,629 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:56:13,646 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:56:13,647 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:56:13,647 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:56:13,647 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:57:46,533 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:57:46,535 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:57:46,813 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:57:46,814 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:57:46,814 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:57:46,815 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:57:46,815 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:57:46,816 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:57:46,816 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:57:46,816 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:57:46,817 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:57:46,817 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:57:46,817 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:57:46,827 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:57:46,828 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:57:47,079 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:57:47,080 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:57:47,096 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:57:47,097 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:57:47,097 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:57:47,818 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:57:47,830 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:57:49,908 INFO     [MainThread] logger.py:info Found 158 files
+Logger       2026-02-08 00:57:49,909 INFO     [MainThread] logger.py:info After filtering bad files: Found 158 files
+Logger       2026-02-08 00:57:49,911 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 158 files
+Logger       2026-02-08 00:57:49,912 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 158
+Logger       2026-02-08 00:57:49,913 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 158
+Logger       2026-02-08 00:57:49,914 INFO     [MainThread] logger.py:info Number of entry after filter store id is 158
+Logger       2026-02-08 00:57:49,916 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:57:49,917 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:57:49,917 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:57:49,918 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:57:49,919 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:57:49,936 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:57:49,937 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:57:50,302 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:57:50,353 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:57:50,354 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:57:50,371 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:57:50,372 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:57:50,372 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:57:50,373 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:58:31,389 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:58:31,391 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:58:31,693 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:58:31,694 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:58:31,694 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:58:31,695 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:58:31,695 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:58:31,696 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:58:31,696 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:58:31,697 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:58:31,697 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:58:31,698 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:58:31,698 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:58:31,714 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:58:31,715 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:58:31,982 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:58:31,982 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:58:32,000 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:58:32,001 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:58:32,001 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:58:32,719 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:58:32,743 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:58:34,961 INFO     [MainThread] logger.py:info Found 158 files
+Logger       2026-02-08 00:58:34,962 INFO     [MainThread] logger.py:info After filtering bad files: Found 158 files
+Logger       2026-02-08 00:58:34,963 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 158 files
+Logger       2026-02-08 00:58:34,965 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 158
+Logger       2026-02-08 00:58:34,966 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 158
+Logger       2026-02-08 00:58:34,967 INFO     [MainThread] logger.py:info Number of entry after filter store id is 158
+Logger       2026-02-08 00:58:34,969 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:58:34,970 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:58:34,971 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:58:34,972 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:58:34,973 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:58:34,993 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:58:34,994 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:58:35,421 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:58:35,486 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:58:35,487 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:58:35,503 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:58:35,504 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:58:35,504 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:58:35,505 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 00:59:09,739 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:59:09,742 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:59:10,028 INFO     [MainThread] logger.py:info Found 3 files
+Logger       2026-02-08 00:59:10,028 INFO     [MainThread] logger.py:info After filtering bad files: Found 3 files
+Logger       2026-02-08 00:59:10,029 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 3 files
+Logger       2026-02-08 00:59:10,029 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 3
+Logger       2026-02-08 00:59:10,030 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 3
+Logger       2026-02-08 00:59:10,030 INFO     [MainThread] logger.py:info Number of entry after filter store id is 3
+Logger       2026-02-08 00:59:10,030 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:59:10,031 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:59:10,031 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:59:10,031 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:59:10,031 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:59:10,041 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:59:10,042 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:59:10,302 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260205-050501.xml
+Logger       2026-02-08 00:59:10,303 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:59:10,320 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:59:10,321 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 20624
+Logger       2026-02-08 00:59:10,321 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 00:59:11,081 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 00:59:11,092 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 00:59:13,260 INFO     [MainThread] logger.py:info Found 158 files
+Logger       2026-02-08 00:59:13,261 INFO     [MainThread] logger.py:info After filtering bad files: Found 158 files
+Logger       2026-02-08 00:59:13,261 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 158 files
+Logger       2026-02-08 00:59:13,261 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 158
+Logger       2026-02-08 00:59:13,262 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 158
+Logger       2026-02-08 00:59:13,262 INFO     [MainThread] logger.py:info Number of entry after filter store id is 158
+Logger       2026-02-08 00:59:13,263 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 00:59:13,263 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 00:59:13,263 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 00:59:13,263 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 00:59:13,264 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 00:59:13,273 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 00:59:13,274 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:59:13,711 DEBUG    [PullingThread_0] logger.py:debug File size is 1194826 bytes.
+Logger       2026-02-08 00:59:13,773 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-000-002-20260207-004004.gz
+Logger       2026-02-08 00:59:13,774 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 00:59:13,791 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 00:59:13,792 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-000-002-20260207-004004.xml: size 17688679
+Logger       2026-02-08 00:59:13,792 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260205-050501.xml: size 17709303
+Logger       2026-02-08 00:59:13,793 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 17709303 MB
+Logger       2026-02-08 01:17:06,670 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:17:06,673 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:17:06,946 INFO     [MainThread] logger.py:info Found 2 files
+Logger       2026-02-08 01:17:06,947 INFO     [MainThread] logger.py:info After filtering bad files: Found 2 files
+Logger       2026-02-08 01:17:06,947 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 2 files
+Logger       2026-02-08 01:17:06,949 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 2
+Logger       2026-02-08 01:17:06,949 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 2
+Logger       2026-02-08 01:17:06,950 INFO     [MainThread] logger.py:info Number of entry after filter store id is 2
+Logger       2026-02-08 01:17:06,951 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:17:06,952 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:17:06,953 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:17:06,954 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:17:06,955 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:17:06,978 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:17:06,979 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:17:07,229 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:17:07,230 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:17:07,266 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:17:07,267 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 20624
+Logger       2026-02-08 01:17:07,267 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 01:17:08,450 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:17:54,098 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:17:54,100 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info Found 2 files
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info After filtering bad files: Found 2 files
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 2 files
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 2
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 2
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info Number of entry after filter store id is 2
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:17:54,389 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:17:54,390 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:17:54,390 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:17:54,390 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:17:54,398 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:17:54,399 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:17:54,664 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:17:54,665 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:17:54,684 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:17:54,685 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 20624
+Logger       2026-02-08 01:17:54,685 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 01:17:55,810 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:18:28,014 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:18:28,017 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:18:28,291 INFO     [MainThread] logger.py:info Found 2 files
+Logger       2026-02-08 01:18:28,291 INFO     [MainThread] logger.py:info After filtering bad files: Found 2 files
+Logger       2026-02-08 01:18:28,292 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 2 files
+Logger       2026-02-08 01:18:28,293 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 2
+Logger       2026-02-08 01:18:28,294 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 2
+Logger       2026-02-08 01:18:28,294 INFO     [MainThread] logger.py:info Number of entry after filter store id is 2
+Logger       2026-02-08 01:18:28,295 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:18:28,296 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:18:28,296 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:18:28,296 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:18:28,297 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:18:28,306 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:18:28,307 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:18:28,528 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:18:28,528 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:18:28,548 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:18:28,548 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 20624
+Logger       2026-02-08 01:18:28,549 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 01:18:29,749 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:18:29,774 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:18:30,017 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:18:30,018 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:18:30,018 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:18:30,020 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:18:30,021 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:18:30,022 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:18:30,022 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:18:30,023 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:18:30,024 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:18:30,025 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:18:30,026 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:18:30,047 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:18:30,048 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-503-202602080011.gz
+Logger       2026-02-08 01:18:30,285 DEBUG    [PullingThread_0] logger.py:debug File size is 259857 bytes.
+Logger       2026-02-08 01:18:30,315 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-503-202602080011.gz
+Logger       2026-02-08 01:18:30,317 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:18:30,336 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:18:30,337 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:18:30,337 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 4688821
+Logger       2026-02-08 01:18:30,337 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 4688821 MB
+Logger       2026-02-08 01:18:41,647 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:18:41,889 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:18:41,890 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:18:41,890 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:18:41,891 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:18:41,891 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:18:41,891 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:18:41,892 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:18:41,892 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:18:41,892 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:18:41,892 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:18:41,893 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:18:41,901 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:18:41,902 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-512-202602080011.gz
+Logger       2026-02-08 01:18:42,130 DEBUG    [PullingThread_0] logger.py:debug File size is 247254 bytes.
+Logger       2026-02-08 01:18:42,149 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-512-202602080011.gz
+Logger       2026-02-08 01:18:42,150 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:18:42,167 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:18:42,167 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:18:42,168 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:18:42,168 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 9107475
+Logger       2026-02-08 01:18:42,169 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 3,Size= 9107475 MB
+Logger       2026-02-08 01:18:52,558 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:18:52,843 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:18:52,844 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:18:52,844 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:18:52,844 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:18:52,845 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:18:52,845 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:18:52,845 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:18:52,845 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:18:52,846 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:18:52,846 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:18:52,846 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:18:52,857 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:18:52,858 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-514-202602080011.gz
+Logger       2026-02-08 01:18:53,146 DEBUG    [PullingThread_0] logger.py:debug File size is 435456 bytes.
+Logger       2026-02-08 01:18:53,175 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-514-202602080011.gz
+Logger       2026-02-08 01:18:53,176 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:18:53,196 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:18:53,197 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:18:53,197 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:18:53,197 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:18:53,198 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 17218339
+Logger       2026-02-08 01:18:53,198 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 4,Size= 17218339 MB
+Logger       2026-02-08 01:19:12,984 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:19:13,249 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:19:13,250 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:19:13,252 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:19:13,253 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:19:13,254 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:19:13,256 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:19:13,257 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:19:13,258 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:19:13,259 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:19:13,260 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:19:13,261 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:19:13,284 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:19:13,285 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-515-202602080011.gz
+Logger       2026-02-08 01:19:13,521 DEBUG    [PullingThread_0] logger.py:debug File size is 191274 bytes.
+Logger       2026-02-08 01:19:13,546 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-515-202602080011.gz
+Logger       2026-02-08 01:19:13,547 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:19:13,566 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:19:13,567 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:19:13,567 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:19:13,567 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:19:13,568 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 20539148
+Logger       2026-02-08 01:19:13,568 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 20559772
+Logger       2026-02-08 01:19:13,569 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 5,Size= 20559772 MB
+Logger       2026-02-08 01:19:22,100 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:19:22,359 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:19:22,360 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:19:22,360 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:19:22,361 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:19:22,361 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:19:22,361 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:19:22,361 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:19:22,362 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:19:22,362 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:19:22,362 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:19:22,362 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:19:22,373 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:19:22,374 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-519-202602080011.gz
+Logger       2026-02-08 01:19:22,646 DEBUG    [PullingThread_0] logger.py:debug File size is 382296 bytes.
+Logger       2026-02-08 01:19:22,699 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-519-202602080011.gz
+Logger       2026-02-08 01:19:22,700 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:19:22,719 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:19:22,720 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:19:22,720 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:19:22,721 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:19:22,721 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 20539148
+Logger       2026-02-08 01:19:22,721 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-519-202602080011.xml: size 27617780
+Logger       2026-02-08 01:19:22,722 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 27638404
+Logger       2026-02-08 01:19:22,722 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 6,Size= 27638404 MB
+Logger       2026-02-08 01:19:38,647 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:19:38,903 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:19:38,904 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:19:38,904 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:19:38,905 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:19:38,905 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:19:38,905 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:19:38,906 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:19:38,906 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:19:38,906 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:19:38,906 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:19:38,906 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:19:38,916 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:19:38,917 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-523-202602080011.gz
+Logger       2026-02-08 01:19:39,138 DEBUG    [PullingThread_0] logger.py:debug File size is 674 bytes.
+Logger       2026-02-08 01:19:39,148 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-523-202602080011.gz
+Logger       2026-02-08 01:19:39,149 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:19:39,170 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:19:39,171 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:19:39,171 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:19:39,172 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:19:39,172 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 20539148
+Logger       2026-02-08 01:19:39,172 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-519-202602080011.xml: size 27617780
+Logger       2026-02-08 01:19:39,173 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-523-202602080011.xml: size 27621856
+Logger       2026-02-08 01:19:39,173 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 27642480
+Logger       2026-02-08 01:19:39,173 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 7,Size= 27642480 MB
+Logger       2026-02-08 01:19:40,453 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:19:40,693 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:19:40,694 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:19:40,694 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:19:40,694 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:19:40,695 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:19:40,695 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:19:40,695 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:19:40,696 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:19:40,696 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:19:40,696 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:19:40,696 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:19:40,707 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:19:40,708 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-502-202602080011.gz
+Logger       2026-02-08 01:19:40,962 DEBUG    [PullingThread_0] logger.py:debug File size is 326541 bytes.
+Logger       2026-02-08 01:19:40,983 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-502-202602080011.gz
+Logger       2026-02-08 01:19:40,984 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:19:41,005 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:19:41,006 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-502-202602080011.xml: size 5903699
+Logger       2026-02-08 01:19:41,006 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 10571896
+Logger       2026-02-08 01:19:41,007 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 14990550
+Logger       2026-02-08 01:19:41,007 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 23101414
+Logger       2026-02-08 01:19:41,007 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 26442847
+Logger       2026-02-08 01:19:41,008 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-519-202602080011.xml: size 33521479
+Logger       2026-02-08 01:19:41,008 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-523-202602080011.xml: size 33525555
+Logger       2026-02-08 01:19:41,008 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 33546179
+Logger       2026-02-08 01:19:41,008 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 8,Size= 33546179 MB
+Logger       2026-02-08 01:20:54,177 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:20:54,180 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:20:54,445 INFO     [MainThread] logger.py:info Found 2 files
+Logger       2026-02-08 01:20:54,445 INFO     [MainThread] logger.py:info After filtering bad files: Found 2 files
+Logger       2026-02-08 01:20:54,446 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 2 files
+Logger       2026-02-08 01:20:54,446 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 2
+Logger       2026-02-08 01:20:54,446 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 2
+Logger       2026-02-08 01:20:54,447 INFO     [MainThread] logger.py:info Number of entry after filter store id is 2
+Logger       2026-02-08 01:20:54,447 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:20:54,448 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:20:54,448 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:20:54,448 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:20:54,449 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:20:54,458 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:20:54,458 DEBUG    [PullingThread_0] logger.py:debug Start persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:20:54,735 DEBUG    [PullingThread_0] logger.py:debug Done persisting file Stores7290873255550-000-20260206-050501.xml
+Logger       2026-02-08 01:20:54,735 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:20:54,753 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:20:54,753 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 20624
+Logger       2026-02-08 01:20:54,754 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 1,Size= 20624 MB
+Logger       2026-02-08 01:21:01,781 WARNING  [MainThread] logger.py:warning scraper CITY_MARKET_KIRYATGAT is not stable, pass_expiration_date: 2026-03-01, datetime.now(): 2026-02-08
+Logger       2026-02-08 01:21:01,793 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:21:02,055 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:21:02,055 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:21:02,055 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:21:02,056 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:21:02,056 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:21:02,056 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:21:02,057 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:21:02,057 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:21:02,057 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:21:02,058 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:21:02,058 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:21:02,073 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:21:02,074 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-503-202602080011.gz
+Logger       2026-02-08 01:21:02,312 DEBUG    [PullingThread_0] logger.py:debug File size is 259857 bytes.
+Logger       2026-02-08 01:21:02,339 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-503-202602080011.gz
+Logger       2026-02-08 01:21:02,340 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:21:02,359 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:21:02,360 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:21:02,360 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 4688821
+Logger       2026-02-08 01:21:02,360 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 2,Size= 4688821 MB
+Logger       2026-02-08 01:21:12,761 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:21:13,010 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:21:13,011 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:21:13,011 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:21:13,011 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:21:13,012 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:21:13,012 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:21:13,012 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:21:13,013 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:21:13,013 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:21:13,013 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:21:13,013 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:21:13,023 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:21:13,024 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-512-202602080011.gz
+Logger       2026-02-08 01:21:13,251 DEBUG    [PullingThread_0] logger.py:debug File size is 247254 bytes.
+Logger       2026-02-08 01:21:13,281 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-512-202602080011.gz
+Logger       2026-02-08 01:21:13,283 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:21:13,301 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:21:13,301 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:21:13,302 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:21:13,302 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 9107475
+Logger       2026-02-08 01:21:13,302 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 3,Size= 9107475 MB
+Logger       2026-02-08 01:21:23,411 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:21:23,662 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:21:23,663 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:21:23,663 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:21:23,663 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:21:23,664 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:21:23,664 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:21:23,665 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:21:23,665 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:21:23,665 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:21:23,666 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:21:23,666 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:21:23,676 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:21:23,676 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-514-202602080011.gz
+Logger       2026-02-08 01:21:23,952 DEBUG    [PullingThread_0] logger.py:debug File size is 435456 bytes.
+Logger       2026-02-08 01:21:23,982 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-514-202602080011.gz
+Logger       2026-02-08 01:21:23,983 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:21:24,001 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:21:24,002 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:21:24,002 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:21:24,002 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:21:24,003 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 17218339
+Logger       2026-02-08 01:21:24,003 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 4,Size= 17218339 MB
+Logger       2026-02-08 01:21:42,755 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:21:42,995 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:21:42,995 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:21:42,995 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:21:42,996 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:21:42,996 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:21:42,997 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:21:42,997 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:21:42,997 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:21:42,998 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:21:42,998 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:21:42,998 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:21:43,008 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:21:43,009 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-515-202602080011.gz
+Logger       2026-02-08 01:21:43,248 DEBUG    [PullingThread_0] logger.py:debug File size is 191274 bytes.
+Logger       2026-02-08 01:21:43,265 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-515-202602080011.gz
+Logger       2026-02-08 01:21:43,266 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:21:43,285 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:21:43,286 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:21:43,286 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:21:43,286 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:21:43,287 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 20539148
+Logger       2026-02-08 01:21:43,287 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 20559772
+Logger       2026-02-08 01:21:43,288 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 5,Size= 20559772 MB
+Logger       2026-02-08 01:21:51,593 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:21:51,861 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:21:51,862 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:21:51,863 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:21:51,865 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:21:51,866 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:21:51,867 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:21:51,868 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:21:51,869 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:21:51,870 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:21:51,870 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:21:51,871 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:21:51,881 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:21:51,882 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-519-202602080011.gz
+Logger       2026-02-08 01:21:52,177 DEBUG    [PullingThread_0] logger.py:debug File size is 382296 bytes.
+Logger       2026-02-08 01:21:52,219 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-519-202602080011.gz
+Logger       2026-02-08 01:21:52,220 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:21:52,238 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:21:52,239 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:21:52,239 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:21:52,240 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:21:52,240 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 20539148
+Logger       2026-02-08 01:21:52,241 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-519-202602080011.xml: size 27617780
+Logger       2026-02-08 01:21:52,241 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 27638404
+Logger       2026-02-08 01:21:52,241 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 6,Size= 27638404 MB
+Logger       2026-02-08 01:22:08,554 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:22:08,788 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:22:08,789 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:22:08,789 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:22:08,789 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:22:08,790 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:22:08,790 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:22:08,790 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:22:08,791 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:22:08,791 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:22:08,791 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:22:08,791 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:22:08,800 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:22:08,801 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-523-202602080011.gz
+Logger       2026-02-08 01:22:09,043 DEBUG    [PullingThread_0] logger.py:debug File size is 674 bytes.
+Logger       2026-02-08 01:22:09,045 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-523-202602080011.gz
+Logger       2026-02-08 01:22:09,046 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:22:09,064 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:22:09,065 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 4668197
+Logger       2026-02-08 01:22:09,065 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 9086851
+Logger       2026-02-08 01:22:09,066 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 17197715
+Logger       2026-02-08 01:22:09,066 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 20539148
+Logger       2026-02-08 01:22:09,066 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-519-202602080011.xml: size 27617780
+Logger       2026-02-08 01:22:09,067 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-523-202602080011.xml: size 27621856
+Logger       2026-02-08 01:22:09,067 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 27642480
+Logger       2026-02-08 01:22:09,067 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 7,Size= 27642480 MB
+Logger       2026-02-08 01:22:10,324 INFO     [MainThread] logger.py:info Open connection to FTP server with url.retail.publishedprices.co.il , username: TivTaam , password: 
+Logger       2026-02-08 01:22:10,610 INFO     [MainThread] logger.py:info Found 1 files
+Logger       2026-02-08 01:22:10,610 INFO     [MainThread] logger.py:info After filtering bad files: Found 1 files
+Logger       2026-02-08 01:22:10,611 INFO     [MainThread] logger.py:info After filtering by ['xml', 'gz']: Found 1 files
+Logger       2026-02-08 01:22:10,612 INFO     [MainThread] logger.py:info Number of entry after filter already downloaded is 1
+Logger       2026-02-08 01:22:10,613 INFO     [MainThread] logger.py:info Number of entry after filter unique links is 1
+Logger       2026-02-08 01:22:10,614 INFO     [MainThread] logger.py:info Number of entry after filter store id is 1
+Logger       2026-02-08 01:22:10,615 INFO     [MainThread] logger.py:info Number of entry after filter file type id is 1
+Logger       2026-02-08 01:22:10,616 INFO     [MainThread] logger.py:info Number of entry after filtering base on time is 1
+Logger       2026-02-08 01:22:10,617 INFO     [MainThread] logger.py:info Limit: 1
+Logger       2026-02-08 01:22:10,618 INFO     [MainThread] logger.py:info Result length 1
+Logger       2026-02-08 01:22:10,619 INFO     [MainThread] logger.py:info After applying limit: Found 1 files
+Logger       2026-02-08 01:22:10,636 INFO     [MainThread] logger.py:info Running 1 tasks in parallel
+Logger       2026-02-08 01:22:10,637 DEBUG    [PullingThread_0] logger.py:debug Start persisting file PriceFull7290873255550-502-202602080011.gz
+Logger       2026-02-08 01:22:10,944 DEBUG    [PullingThread_0] logger.py:debug File size is 326541 bytes.
+Logger       2026-02-08 01:22:10,965 DEBUG    [PullingThread_0] logger.py:debug Done persisting file PriceFull7290873255550-502-202602080011.gz
+Logger       2026-02-08 01:22:10,966 INFO     [MainThread] logger.py:info Done with 1 tasks in parallel
+Logger       2026-02-08 01:22:10,986 INFO     [MainThread] logger.py:info Found the following files in backend/temp_data\TivTaam
+Logger       2026-02-08 01:22:10,987 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-502-202602080011.xml: size 5903699
+Logger       2026-02-08 01:22:10,987 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-503-202602080011.xml: size 10571896
+Logger       2026-02-08 01:22:10,987 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-512-202602080011.xml: size 14990550
+Logger       2026-02-08 01:22:10,988 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-514-202602080011.xml: size 23101414
+Logger       2026-02-08 01:22:10,988 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-515-202602080011.xml: size 26442847
+Logger       2026-02-08 01:22:10,988 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-519-202602080011.xml: size 33521479
+Logger       2026-02-08 01:22:10,989 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\PriceFull7290873255550-523-202602080011.xml: size 33525555
+Logger       2026-02-08 01:22:10,989 INFO     [MainThread] logger.py:info - file backend/temp_data\TivTaam\Stores7290873255550-000-20260206-050501.xml: size 33546179
+Logger       2026-02-08 01:22:10,989 INFO     [MainThread] logger.py:info Folder backend/temp_data\TivTaam: Num of Files= 8,Size= 33546179 MB

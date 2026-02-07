@@ -1,0 +1,7 @@
+requests
+git+https://github.com/OpenIsraeliSupermarkets/israeli-supermarket-parsers.git
+git+https://github.com/OpenIsraeliSupermarkets/israeli-supermarket-scarpers.git
+python-dotenv
+supabase
+geopy
+pandas
