@@ -1,0 +1,38 @@
+# Walkthrough - Data Ingestion Setup
+
+Successfully set up the backend data ingestion pipeline, resolving all environmental hurdles and successfully populating the database with live supermarket data.
+
+## Key Accomplishments
+
+- **Python Environment**: Resolved critical `pandas` build failures on Python 3.13 by installing compatible versions and fixing library typos (`scarpers` -> `scrapers`).
+- **Supabase Integration**: Connected the Python worker to Supabase and applied the initial schema (Chains, Stores, Products, Prices).
+- **Robust Ingestion Logic**: Implemented [backend/main.py](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py) with:
+  - **Case-insensitive XML parsing**: Handles inconsistent tags like `Store` vs `STORE`.
+  - **Batching & Deduplication**: Manages large XML files containing 20,000+ items without hitting database limits or unique constraint violations.
+  - **Online Store Focus**: Optimized following user feedback to eventually target central "Online/Likot" stores.
+
+## Results
+
+### Database Statistics (Tiv Taam)
+| Table | Record Count | Status |
+| :--- | :--- | :--- |
+| `chains` | 5 | ✅ Seeded (Shufersal, Tiv Taam, Hatzi Hinam, etc.) |
+| [stores](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#40-87) | 53 | ✅ Synced for Tiv Taam |
+| `products` | 20,578 | ✅ Unique products created |
+| [prices](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#88-199) | 20,578 | ✅ Initial price data uploaded |
+
+### Verification Proof
+The ingestion script was run end-to-end, overcoming batching and naming issues:
+```text
+2026-02-08 00:59:14,802 - INFO - Upserting 20578 unique products and mapping IDs...
+2026-02-08 00:59:49,614 - INFO - Uploaded 20500 / 20578 prices...
+```
+
+## How to Run
+To trigger a fresh sync, run the following from the project root:
+```powershell
+backend\venv\Scripts\python backend\main.py
+```
+
+> [!NOTE]
+> The script currently focuses on Tiv Taam as a benchmark. Other chains like Shufersal and Hatzi Hinam are exhibiting some scraping stability issues (possibly geo-blocked or site structure changes) which will be addressed in the next phase.

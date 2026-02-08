@@ -1,0 +1,28 @@
+# Tasks
+
+- [x] Research Israeli Supermarket Price Data Sources <!-- id: 0 -->
+    - [x] Search for government-mandated price transparency data (The "Food Law") <!-- id: 1 -->
+    - [x] Look for existing open-source libraries or APIs (e.g., on GitHub) that parse this data <!-- id: 2 -->
+    - [x] specific chains (Shufersal, Rami Levy, Yochananof, Victory, etc.) data locations <!-- id: 3 -->
+- [x] Requirements Gathering & Architecture Planning <!-- id: 4 -->
+    - [x] Define data ingestion strategy (Daily CRON jobs via Python script) <!-- id: 5 -->
+    - [x] Choose tech stack (Next.js, Supabase, Python `il_supermarket_parsers`) <!-- id: 6 -->
+    - [x] Select initial chains: Shufersal, Hatzi Hinam, Tiv Taam <!-- id: 8 -->
+- [x] Create Implementation Plan <!-- id: 9 -->
+    - [x] Define Database Schema (Supabase/Postgres) <!-- id: 10 -->
+    - [x] Design Data Ingestion Workflow <!-- id: 11 -->
+- [x] Initialize Project <!-- id: 7 -->
+    - [x] Setup Next.js App <!-- id: 12 -->
+    - [x] Setup Python Data Worker Environment (Fixed Python 3.13 dependencies) <!-- id: 13 -->
+    - [x] Configure Supabase & Schema <!-- id: 14 -->
+- [x] Implementation - Phase 1: Data Ingestion (Backend) <!-- id: 15 -->
+    - [x] Create base scraper logic in [backend/main.py](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py) <!-- id: 19 -->
+    - [x] Implement Tiv Taam baseline sync <!-- id: 18 -->
+    - [x] Update engine to support multi-store "Online" sync (Location-aware) <!-- id: 16 -->
+    - [x] Sync Online stores for Tiv Taam (including Barcodes & Images) <!-- id: 25 -->
+    - [ ] Sync Online stores for Shufersal and Hatzi Hinam <!-- id: 26 -->
+- [ ] Implementation - Phase 2: Core App (Frontend) <!-- id: 20 -->
+    - [ ] Setup Supabase Client in Next.js <!-- id: 21 -->
+    - [ ] Product Search functionalites <!-- id: 22 -->
+    - [ ] Cart management logic <!-- id: 23 -->
+    - [ ] Comparison Results View <!-- id: 24 -->

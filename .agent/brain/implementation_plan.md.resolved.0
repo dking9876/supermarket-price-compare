@@ -1,0 +1,65 @@
+# Implementation Plan - Supermarket Price Comparison App
+
+## Goal
+Create a full-stack application to compare prices between Israeli supermarket chains (initially Shufersal, Hatzi Hinam, Tiv Taam) for online orders.
+
+## Architecture
+- **Frontend**: Next.js (React) hosted on Vercel.
+- **Backend/Database**: Supabase (PostgreSQL).
+- **Data Ingestion**: Python script running on a schedule (GitHub Actions or simple Cron) using `il_supermarket_parsers` to fetch and parse XML/GZ files and update Supabase.
+
+## Database Schema (Proposed)
+
+### `chains`
+- `id` (int, PK)
+- `name` (text) - e.g., "Shufersal", "Hatzi Hinam"
+- `code` (text) - enum identifier
+
+### `stores`
+- `id` (int, PK)
+- `chain_id` (int, FK)
+- `store_id_in_chain` (text) - The ID used by the chain
+- `name` (text)
+- `city` (text)
+- `address` (text)
+
+### `products`
+- `id` (bigint, PK)
+- `chain_id` (int, FK)
+- `product_code` (text) - Barcode/Item ID
+- `name` (text)
+- `manufacturer_name` (text)
+- `unit_of_measure` (text)
+- `image_url` (text, optional)
+
+### `prices`
+- `id` (bigint, PK)
+- `product_id` (bigint, FK)
+- `store_id` (int, FK)
+- `price` (numeric)
+- `price_update_date` (timestamp)
+- `is_promotion` (boolean)
+
+## Data Ingestion Strategy (Python Worker)
+1.  **Trigger**: Daily (e.g., 4:00 AM Israel time).
+2.  **Fetch**:
+    - Iterate through configured chains (Shufersal, Hatzi Hinam, Tiv Taam).
+    - Use `il_supermarket_parsers` or direct requests to get the latest GZ/XML URL.
+    - Download the file.
+3.  **Parse**:
+    - Stream parse the XML to avoid memory issues (these files can be huge).
+    - Extract `ItemCode`, `ItemName`, `OneItemPrice`, `ManufacturerName`.
+4.  **Upsert**:
+    - Batch insert/update records in Supabase to minimize DB hits.
+    - Use `ON CONFLICT` to update prices if the product exists.
+
+## User Interface
+- **Search Page**: Search bar for products.
+- **Cart**: Add items to a virtual cart.
+- **Comparison Result**: Show total cart price per chain/store in the user's area.
+
+## Plan
+1.  **Setup**: Initialize Next.js app and Supabase project.
+2.  **Data Pipeline**: Build the Python worker to populate the DB.
+3.  **API/Backend**: Create API routes (or use Supabase client) to query products.
+4.  **Frontend**: Build the search and cart UI.

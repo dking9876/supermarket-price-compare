@@ -1,0 +1,66 @@
+# Implementation Plan - Supermarket Price Comparison App
+
+## Goal
+Create a full-stack application to compare prices between Israeli supermarket chains (initially Shufersal, Hatzi Hinam, Tiv Taam) for online orders.
+
+## Architecture
+- **Frontend**: Next.js (React) hosted on Vercel.
+- **Backend/Database**: Supabase (PostgreSQL).
+- **Data Ingestion**: Python script running on a schedule (GitHub Actions or simple Cron) using `il_supermarket_parsers` to fetch and parse XML/GZ files and update Supabase.
+
+## Database Schema (Proposed)
+
+### `chains`
+- [id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (int, PK)
+- `name` (text) - e.g., "Shufersal", "Hatzi Hinam"
+- `code` (text) - enum identifier
+
+### [stores](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#40-87)
+- [id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (int, PK)
+- [chain_id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (int, FK)
+- `store_id_in_chain` (text) - The ID used by the chain
+- `name` (text)
+- `city` (text)
+- `address` (text)
+
+### `products`
+- [id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (bigint, PK)
+- [chain_id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (int, FK)
+- `product_code` (text) - Barcode/Item ID
+- `name` (text)
+- `manufacturer_name` (text)
+- `unit_of_measure` (text)
+- `image_url` (text, optional)
+
+### [prices](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#88-199)
+- [id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (bigint, PK)
+- `product_id` (bigint, FK)
+- `store_id` (int, FK)
+- [price](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#88-199) (numeric)
+- `price_update_date` (timestamp)
+- `is_promotion` (boolean)
+
+## Data Ingestion Strategy (Online-Only Focus)
+To save storage space and simplify comparison, we will only ingestion data for the primary "Online/Delivery" fulfillment stores of each chain.
+
+### Criteria for "Online" Stores
+- **Tiv Taam**: Stores containing "ליקוט" (Likot) in their name.
+- **Shufersal**: Stores named "אונליין" (Online) or branch code `901`.
+- **Hatzi Hinam**: TBD (usually a specific branch code).
+
+### Updated Pipeline
+1.  **Sync Stores**: Ingest all store metadata initially (low storage cost).
+2.  **Filter for Online**: Identify the specific [id](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py#37-42) (PK) of the online store for each chain.
+3.  **Sync Prices**: Filter the `PRICE_FULL` download to ONLY the online store IDs.
+4.  **Upsert Products**: Update the shared product catalog (scoped by chain).
+5.  **Upsert Prices**: Store prices only for the designated online store IDs.
+
+## Plan
+1.  **Setup**: [DONE] Initialize Next.js app and Supabase project.
+2.  **Data Ingestion**: 
+    - [DONE] Build core sync engine in [backend/main.py](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py).
+    - [DONE] Sync Tiv Taam (Likot).
+    - [ ] Update engine to automatically identify and filter for "Online" stores.
+    - [ ] Add Shufersal and Hatzi Hinam (Online).
+    - [ ] Implement database cleanup (remove physical branch prices).
+3.  **Frontend**: Build the search and cart UI.

@@ -1,0 +1,38 @@
+# Walkthrough - Data Ingestion & Location-Aware Sync
+
+Successfully set up the backend data ingestion pipeline and implemented geospatial logic to filter for the nearest "Online" fulfillment centers.
+
+## Key Accomplishments
+
+- **PostGIS Integration**: Enabled geospatial support in Supabase to calculate distances between users and store fulfillment centers.
+- **Smart Geocoding**: Integrated `geopy` to automatically map store names (e.g., "Likot Ashdod") to precise Latitude/Longitude coordinates.
+- **Robust Ingestion Logic**: Implemented [backend/main.py](file:///C:/Users/Daniel/Code_projects/supermarket-price-compare/backend/main.py) with:
+  - **Online Store Focus**: Automatically identifies and targets "Online/Likot" centers.
+  - **Batching & Deduplication**: Manages 10,000+ items per store without hitting DB limits.
+- **Library Patching**: Fixed a critical `TypeError` in the `il_supermarket_scraper` library to support string-based branch codes (e.g., "002").
+
+## Results
+
+### Online Center Geocoding (Tiv Taam)
+| Center Name | Location | Status |
+| :--- | :--- | :--- |
+| ליקוט נתניה (Netanya) | 32.30, 34.86 | ✅ Geocoded |
+| ליקוט אשדוד (Ashdod) | 31.81, 34.65 | ✅ Geocoded |
+| ליקוט באר שבע (Beer Sheva) | 31.24, 34.80 | ✅ Geocoded |
+| ליקוט רמת החייל (Tel Aviv) | 32.10, 34.83 | ✅ Geocoded |
+
+### Database Statistics (Active Online Stores)
+| Online Store | Price Records | Status |
+| :--- | :--- | :--- |
+| ליקוט ראשון מזרח | 10,032 | ✅ Fully Synced |
+| ליקוט רמת החייל | 8,760 | ✅ Fully Synced |
+| ליקוט טיב טעם אשדוד | 5,781 | ✅ Fully Synced |
+
+## How to Run
+To trigger a fresh sync:
+```powershell
+backend\venv\Scripts\python backend\main.py
+```
+
+> [!TIP]
+> **How location matching works**: On the frontend, when a user enters their location, the app runs an `ST_Distance` query to find the specific Online/Likot branch ID for each chain that represents their area.

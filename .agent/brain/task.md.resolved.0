@@ -1,0 +1,10 @@
+# Tasks
+
+- [ ] Research Israeli Supermarket Price Data Sources <!-- id: 0 -->
+    - [ ] Search for government-mandated price transparency data (The "Food Law") <!-- id: 1 -->
+    - [ ] Look for existing open-source libraries or APIs (e.g., on GitHub) that parse this data <!-- id: 2 -->
+    - [ ] specific chains (Shufersal, Rami Levy, Yochananof, Victory, etc.) data locations <!-- id: 3 -->
+- [ ] Requirements Gathering & Architecture Planning <!-- id: 4 -->
+    - [ ] Define data ingestion strategy (Daily CRON jobs vs real-time) <!-- id: 5 -->
+    - [ ] Choose tech stack (Next.js, Supabase/Postgres, Python for parsing?) <!-- id: 6 -->
+- [ ] Initialize Project <!-- id: 7 -->
