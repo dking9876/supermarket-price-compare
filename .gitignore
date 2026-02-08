@@ -48,6 +48,8 @@ venv/
 
 # scraper data
 backend/temp_data/
+temp/
+logging.log
 *.xml
 *.gz
 *.txt

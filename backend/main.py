@@ -4,6 +4,7 @@ import logging
 import datetime
 import shutil
 import xml.etree.ElementTree as ET
+import gzip
 from dotenv import load_dotenv
 from supabase import create_client, Client
 from il_supermarket_scarper.scrappers_factory import ScraperFactory
@@ -89,13 +90,31 @@ def sync_stores(chain_name, chain_code):
     scraper = scraper_cls(folder_name=DATA_DIR)
     scraper.scrape(limit=1, files_types=[FileTypesFilters.STORE_FILE.name])
 
-    # Find the XML file
-    xml_files = glob.glob(f"{DATA_DIR}/**/*.xml", recursive=True)
+    # The scraper creates a subfolder based on the chain name
+    # We'll look for XML/GZ files specifically in that subfolder (or sub-subfolders)
+    chain_folder = os.path.join(DATA_DIR, type(scraper).__name__)
+    if not os.path.exists(chain_folder):
+        # Fallback to broad search if scrapper_name doesn't match folder exactly
+        chain_folder = DATA_DIR
+
+    xml_files = glob.glob(f"{chain_folder}/**/*.xml", recursive=True)
+    gz_files = glob.glob(f"{chain_folder}/**/*.gz", recursive=True)
+    
+    # Decompress GZ files
+    for gz_path in gz_files:
+        xml_path = gz_path.replace(".gz", "")
+        if not os.path.exists(xml_path):
+            logging.info(f"Decompressing {gz_path}...")
+            with gzip.open(gz_path, 'rb') as f_in:
+                with open(xml_path, 'wb') as f_out:
+                    shutil.copyfileobj(f_in, f_out)
+        xml_files.append(xml_path)
+
     if not xml_files:
-        logging.warning(f"No store XML found for {chain_name}")
+        logging.warning(f"No store files found for {chain_name}")
         return
 
-    for xml_path in xml_files:
+    for xml_path in list(set(xml_files)): # Use set to avoid double processing
         logging.info(f"Parsing stores from {xml_path}")
         tree = ET.parse(xml_path)
         root = tree.getroot()
@@ -168,7 +187,27 @@ def sync_prices(chain_name, chain_code):
         # Request PriceFull for this specific store
         scraper.scrape(limit=1, files_types=[FileTypesFilters.PRICE_FULL_FILE.name], store_id=store_id_in_chain)
 
-        xml_files = glob.glob(f"{DATA_DIR}/**/*.xml", recursive=True)
+        # Look specifically in this chain's folder
+        chain_folder = os.path.join(DATA_DIR, type(scraper).__name__)
+        if not os.path.exists(chain_folder): chain_folder = DATA_DIR
+
+        xml_files = glob.glob(f"{chain_folder}/**/*.xml", recursive=True)
+        gz_files = glob.glob(f"{chain_folder}/**/*.gz", recursive=True)
+        
+        # Decompress GZ files
+        for gz_path in gz_files:
+            target_xml = gz_path.replace(".gz", "")
+            if f"-{store_id_in_chain}-" in gz_path or "Price" in gz_path: # Basic heuristic
+                 if not os.path.exists(target_xml):
+                    logging.info(f"Decompressing {gz_path}...")
+                    try:
+                        with gzip.open(gz_path, 'rb') as f_in:
+                            with open(target_xml, 'wb') as f_out:
+                                shutil.copyfileobj(f_in, f_out)
+                    except Exception as e:
+                        logging.error(f"Failed to decompress {gz_path}: {e}")
+                 if target_xml not in xml_files: xml_files.append(target_xml)
+
         found_price_file = False
         for xml_path in xml_files:
             # Match store ID in filename or content
@@ -206,13 +245,18 @@ def sync_prices(chain_name, chain_code):
             manufacturer = item.findtext("ManufacturerName") or item.findtext("manufacturer")
             unit = item.findtext("UnitOfMeasure") or item.findtext("unit_of_measure")
             price = item.findtext("ItemPrice") or item.findtext("item_price") or item.findtext("Price")
+            image_url = item.findtext("ItemImage") or item.findtext("item_image") or item.findtext("image")
+            
+            if not image_url and chain_code == "SHUFERSAL":
+                image_url = f"https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1/shufersal_auto/p/{code}"
 
             all_products_dict[code] = {
                 "chain_id": chain_id,
                 "product_code": code,
                 "name": name.strip() if name else "Unknown Product",
                 "manufacturer_name": manufacturer.strip() if manufacturer else None,
-                "unit_of_measure": unit.strip() if unit else None
+                "unit_of_measure": unit.strip() if unit else None,
+                "image_url": image_url.strip() if image_url else None
             }
             if price:
                 all_prices_data.append((code, price))
@@ -269,6 +313,11 @@ def sync_prices(chain_name, chain_code):
 
 if __name__ == "__main__":
     clean_data_dir()
-    # Test Full Cycle for Tiv Taam
+    # Tiv Taam
     sync_stores("TIV_TAAM", "TIV_TAAM")
     sync_prices("TIV_TAAM", "TIV_TAAM")
+    
+    # Shufersal
+    # Note: Shufersal scraper might take longer due to pagination/Cookies
+    sync_stores("SHUFERSAL", "SHUFERSAL")
+    sync_prices("SHUFERSAL", "SHUFERSAL")
